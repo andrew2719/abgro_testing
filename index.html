@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABGRO - A Bit to Grow Out</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS Styles -->
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Header */
+        header {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        header h1 {
+            margin-top: 10px;
+            font-size: 2em;
+        }
+
+        /* Navigation */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 5px 10px;
+        }
+
+        nav ul li a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 1.75em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            position: relative;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 0;
+            height: 3px;
+            background-color: #3498db;
+            transition: width 0.3s;
+        }
+
+        section h2:hover::after {
+            width: 100%;
+        }
+
+        section p, section ul {
+            font-size: 1em; 
+            margin-bottom: 10px;
+        }
+
+        section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        section ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* Links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Logo placeholder -->
+            <img src="logo-placeholder.png" alt="ABGRO Logo">
+        </div>
+        <h1>ABGRO - A Bit to Grow Out</h1>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#who-we-are">Who We Are</a></li>
+                <li><a href="#what-we-do">What We Do</a></li>
+                <li><a href="#values">Our Values</a></li>
+                <li><a href="#current-focus">Current Focus</a></li>
+                <li><a href="#future-expansion">Future Expansion</a></li>
+                <li><a href="#key-highlights">Key Highlights</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mission">
+            <h2>Mission</h2>
+            <p>At ABGRO, our mission is to simplify the learning journey by providing practical, experience-driven guidance in computer science. We aim to help students and aspiring professionals grasp complex concepts and master essential skills through an approach that is relatable, easy to understand, and based on real-world experiences. As we grow, our goal is to expand this teaching model to other subjects and fields of education, supporting learners in a wide range of disciplines.</p>
+        </section>
+        
+        <section id="vision">
+            <h2>Vision</h2>
+            <p>We envision ABGRO as a platform where learners can confidently build their skills from the ground up. By starting with a focus on computer science, our vision is to create an educational ecosystem where learning is practical, interactive, and scalable to various fields in the future.</p>
+        </section>
+        
+        <section id="who-we-are">
+            <h2>Who We Are</h2>
+            <p>ABGRO was founded by a self-taught coder who has experienced the challenges and triumphs of learning computer science independently. Through years of dedication and self-learning, we understand the unique hurdles learners face and how to overcome them. Our goal is to use this experience to help others develop their skills and grow their knowledge, making difficult concepts easier to understand through practical, hands-on learning.</p>
+        </section>
+        
+        <section id="what-we-do">
+            <h2>What We Do</h2>
+            <ul>
+                <li><strong>Personalized Learning:</strong> We provide relatable, real-world lessons in computer science, helping learners at different stages understand fundamental and advanced concepts through experience-based learning.</li>
+                <li><strong>Real-World Preparation:</strong> Using personal insights from navigating coding interviews and the job market, we help learners prepare for careers in the tech industry, offering practical advice and tips to succeed in competitive environments.</li>
+                <li><strong>Scalable Educational Content:</strong> While our current focus is on computer science, ABGRO is designed to expand into various subjects in the future, offering a broader range of educational content that fits different learners' needs.</li>
+                <li><strong>Collaborative Learning:</strong> In the future, ABGRO plans to bring together other experts and educators to create a collaborative learning environment where students can benefit from multiple perspectives and teaching styles.</li>
+            </ul>
+        </section>
+        
+        <section id="values">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Relatability:</strong> Learning from someone who has walked the same path makes education more accessible. We ground our teaching in real experiences to make even the most challenging topics easier to grasp.</li>
+                <li><strong>Growth:</strong> We believe in continuous learning and growth, both for our students and as an organization. ABGRO is always evolving to offer the most relevant, effective, and engaging educational content.</li>
+                <li><strong>Community:</strong> We aim to create a community of learners and educators who share knowledge, collaborate, and support each other's growth in an open, inclusive environment.</li>
+            </ul>
+        </section>
+        
+        <section id="current-focus">
+            <h2>Our Current Focus</h2>
+            <ul>
+                <li>Computer science fundamentals</li>
+                <li>Coding and programming techniques</li>
+                <li>Career and interview preparation in the tech field</li>
+            </ul>
+        </section>
+        
+        <section id="future-expansion">
+            <h2>Future Expansion</h2>
+            <p>As we grow, ABGRO plans to expand into a variety of educational fields beyond computer science, continually building on our mission of providing practical, experience-based learning for students across disciplines.</p>
+        </section>
+        
+        <section id="key-highlights">
+            <h2>Key Highlights</h2>
+            <ul>
+                <li>Self-taught coder with years of experience</li>
+                <li>Focus on computer science education</li>
+                <li>Real-world preparation for tech careers</li>
+                <li>Practical and relatable learning approach</li>
+                <li>Future plans to scale into other educational fields</li>
+            </ul>
+        </section>
+        
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>For inquiries or collaboration, please contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> [Your email here]</li>
+                <li><strong>Phone:</strong> [Your phone number here]</li>
+                <li><strong>Social Media:</strong> [Links to social media accounts or website]</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 ABGRO. All rights reserved.</p>
+    </footer>
+</body>
+</html>
